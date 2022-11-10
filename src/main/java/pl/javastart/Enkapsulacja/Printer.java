@@ -9,7 +9,7 @@ import lombok.ToString;
 public class Printer {
 
    Client client = new Client();
-
+   Discount discount=new Discount();
 
    void printOnScreen (Client client){
        String name = client.getName();
@@ -17,17 +17,22 @@ public class Printer {
 
        if (name != null && lastName != null){
            System.out.println("witaj " +name + " "+ lastName);
+           discount.discountcheck(client);
        }
        else if (name != null && lastName!=null){
            System.out.println("witaj " + name + " " + lastName);
+           discount.discountcheck(client);
        }
        else if (name == null && lastName !=null) {
            System.out.println("dzień dobry  "  + lastName);
+           discount.discountcheck(client);
        }
-       else
-           System.out.println("Witaj nieznajomy");
+       else{
+           System.out.println("Witaj nieznajomy ");
+           discount.discountcheck(client);
+
 
    }
 
 
-}
+}}

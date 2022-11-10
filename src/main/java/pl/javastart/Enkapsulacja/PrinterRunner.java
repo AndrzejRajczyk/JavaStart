@@ -6,16 +6,15 @@ public class PrinterRunner {
         Client client2 = new Client (null,"kowalski1", 98756);
         Client client3 =new Client ("Jan3", null,2345);
         Printer printer = new Printer();
-        Discount discount = new Discount();
+
 
 
        printer.printOnScreen(client1);
-        discount.discountcheck(client1);
 
        printer.printOnScreen(client2);
-        discount.discountcheck(client2);;
+
        printer.printOnScreen(client3);
-        discount.discountcheck(client3);
+
 
     }
 }
