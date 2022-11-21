@@ -1,5 +1,8 @@
 package pl.javastart.Enkapsulacja;
 
+import pl.javastart.Enkapsulacja.data.Client;
+import pl.javastart.Enkapsulacja.processor.Printer;
+
 public class PrinterRunner {
     public static void main(String[] args) {
         Client client1  =new Client ("Jan", "Kowalski", 600 );

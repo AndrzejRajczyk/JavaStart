@@ -1,4 +1,4 @@
-package pl.javastart.Enkapsulacja;
+package pl.javastart.Enkapsulacja.data;
 
 import lombok.*;
 

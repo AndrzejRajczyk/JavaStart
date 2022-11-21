@@ -1,8 +1,11 @@
-package pl.javastart.Enkapsulacja;
+package pl.javastart.Enkapsulacja.processor;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import pl.javastart.Enkapsulacja.data.Client;
+import pl.javastart.Enkapsulacja.processor.Discount;
+
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
@@ -11,7 +14,7 @@ public class Printer {
    Client client = new Client();
    Discount discount=new Discount();
 
-   void printOnScreen (Client client){
+  public void printOnScreen (Client client){
        String name = client.getName();
        String lastName = client.getLastName();
 
@@ -19,8 +22,8 @@ public class Printer {
            System.out.println("witaj " +name + " "+ lastName);
            discount.discountcheck(client);
        }
-       else if (name != null && lastName!=null){
-           System.out.println("witaj " + name + " " + lastName);
+       else if (name == null && lastName!=null){
+           System.out.println("witaj " + lastName);
            discount.discountcheck(client);
        }
        else if (name == null && lastName !=null) {
