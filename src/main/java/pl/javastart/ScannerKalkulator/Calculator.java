@@ -1,5 +1,6 @@
 package pl.javastart.ScannerKalkulator;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Calculator {
@@ -12,6 +13,7 @@ public class Calculator {
 
 
      Scanner scanner = new Scanner(System.in);
+     scanner.useLocale(Locale.FRANCE);
      System.out.println("Podaj pierwszą liczbę: ");
      double x = scanner.nextDouble();
      scanner.nextLine();
