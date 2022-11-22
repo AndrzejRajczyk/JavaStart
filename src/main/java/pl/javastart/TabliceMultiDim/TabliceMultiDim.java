@@ -1,4 +1,4 @@
-package pl.javastart;
+package pl.javastart.TabliceMultiDim;
 
 
 public class TabliceMultiDim {

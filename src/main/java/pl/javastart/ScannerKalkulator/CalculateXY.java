@@ -20,6 +20,7 @@ public class CalculateXY {
                 System.out.println("Musisz wybrać + - / lub *");
              return result;
 
+
         }
         System.out.println("Wybnik to: "+ result);
         return result;
