@@ -29,15 +29,15 @@ public class Hospital {
 
     }
 
-        public void print(){
-            for (int i = 0; i <listOfpatients ; i++) {
-                patient=  patientsList[i];
-                System.out.println(patient.getName()+" " + patient.getSecondName());
-
-            }
+    public void print() {
+        for (int i = 0; i < listOfpatients; i++) {
+            patient = patientsList[i];
+            System.out.println(patient.getName() + " " + patient.getSecondName());
 
         }
+
     }
+}
 
 
 

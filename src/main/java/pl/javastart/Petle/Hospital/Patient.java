@@ -10,7 +10,7 @@ import lombok.*;
 
 public class Patient {
 
-    String name ;
+    String name;
     String secondName;
     String pesel;
 
