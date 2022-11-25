@@ -11,7 +11,11 @@ public class University {
         Student student2= new Student("janek", "Kowalik");
         Student student4 = new Student("janko", "Ryzykant");
         System.out.println("Ilość zapisanych  Studentów: " + Student.STUD_NUMBERS);
-            }
+
+
+
+    }
+
 
         }
 
