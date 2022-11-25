@@ -31,7 +31,7 @@ public class Calculator {
 
 
     public void end() {
-        System.out.println("\n Dziękuję za współpracę do zobaczenia");
+        System.out.println("\nDziękuję za współpracę do zobaczenia");
         scanner.close();
     }
 }
