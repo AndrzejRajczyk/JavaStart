@@ -1,11 +1,5 @@
 package pl.javastart.Polimorfizm;
 
-import lombok.Getter;
-import lombok.Setter;
-
-import java.util.Arrays;
-
-import static pl.javastart.Polimorfizm.Hospital.PERSONNUMBER;
 
 
 public class HospitalApp {

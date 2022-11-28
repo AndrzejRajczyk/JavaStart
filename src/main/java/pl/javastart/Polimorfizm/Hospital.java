@@ -12,9 +12,13 @@ public class Hospital {
     private Person[] personList =new Person [PERSONNUMBER];
 
     void  add(Person person){
+        if(personQuantity<PERSONNUMBER){
         personList[personQuantity-1] = person;
+        }
 
-    }
+        }
+
+
     String printPerson(){
     String result=" ";
         for(int i=0;i<personQuantity;i++){
@@ -23,7 +27,7 @@ public class Hospital {
         return result;
     }
 
-    }
+}
 
 
 
