@@ -46,7 +46,7 @@ public class DataStore {
     }
     public Computer getComputerOne(int x){
        Computer c = new Computer();
-            c = store[x];
+                c = store[x];
         return c;
     }
 
