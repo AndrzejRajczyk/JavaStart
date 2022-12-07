@@ -14,10 +14,6 @@ import static pl.javastart.Enum.Pizza.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Pizzeria {
-    private String choice;
-
-
-
 
 
     public static void main(String[] args) {
