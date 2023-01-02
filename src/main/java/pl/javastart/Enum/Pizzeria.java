@@ -12,7 +12,6 @@ import static pl.javastart.Enum.Pizza.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Pizzeria {
 
 
@@ -32,11 +31,9 @@ public class Pizzeria {
             case ("MARGARITHA"):
             break;
             case("CAPRICIOSA"):
-
             break;
             case("PROSCIUTTIO"):
             break;
-
             default:
                 System.out.println("Wybierz swoją pizze:\n");
                 for (Pizza pizza: values() ){

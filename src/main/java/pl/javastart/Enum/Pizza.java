@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@ToString
+
 @Getter
 @NoArgsConstructor
 public enum Pizza {
@@ -24,5 +24,16 @@ public enum Pizza {
         this.cheese = cheese;
         this.muschrooms = muschrooms;
         this.ham = ham;
+    }
+
+    @Override
+    public String toString() {
+
+        return "Pizza{" +
+                "tomatoSauce=" + tomatoSauce +
+                ", cheese=" + cheese +
+                ", ham=" + ham +
+                ", muschrooms=" + muschrooms +
+                '}';
     }
 }
