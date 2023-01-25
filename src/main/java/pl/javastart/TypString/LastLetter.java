@@ -32,7 +32,7 @@ public class LastLetter {
         }
         System.out.println("You types: " + Arrays.toString(slowa));
         System.out.println("Last leters of words you types, make word: " + sb.toString());
-
+        System.out.printf("");
 
         scanner.close();
     }
