@@ -26,6 +26,8 @@ public class Runner {
                 Rectangle rectangle = new Rectangle(x, y);
                 rectangle.calculateArea();
                 rectangle.callculatePerimeter();
+                System.out.println("\n");
+                s=0;
                 break;
             case 2:
 
@@ -39,6 +41,8 @@ public class Runner {
                 Triangle triangle = new Triangle(x, y, z);
                 triangle.calculateArea();
                 triangle.callculatePerimeter();
+                System.out.println("\n");
+                s=0;
                 break;
             case 3:
                 System.out.println("Podaj promień koła");
@@ -46,6 +50,8 @@ public class Runner {
                 Circle circle = new Circle(x);
                 circle.calculateArea();
                 circle.callculatePerimeter();
+                System.out.println("\n");
+                s=0;
                 break;
             default:
                 System.out.println("Wybierz poprawnie swoją figurę");
