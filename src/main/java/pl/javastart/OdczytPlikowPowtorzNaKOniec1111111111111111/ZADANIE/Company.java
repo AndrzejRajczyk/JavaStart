@@ -1,9 +1,6 @@
-package pl.javastart.OdczytPlikow.ZADANIE;
-
-import lombok.ToString;
+package pl.javastart.OdczytPlikowPowtorzNaKOniec1111111111111111.ZADANIE;
 
 import java.io.Serializable;
-import java.util.Arrays;
 
 
 public class Company implements Serializable {
@@ -33,11 +30,14 @@ public class Company implements Serializable {
         this.employeesList = employeesList;
     }
 
+
     @Override
     public String toString() {
-        return "Company{" +
-                "index=" + index +
-                ", employeesList=" + Arrays.toString(employeesList) +
-                '}';
+        StringBuilder builder = new StringBuilder();
+        for (Employee employee : employeesList) {
+            builder.append(employee.toString());
+            builder.append("\n");
+        }
+        return builder.toString();
     }
 }

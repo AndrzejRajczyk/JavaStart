@@ -1,4 +1,4 @@
-package pl.javastart.OdczytPlikow.ZADANIE;
+package pl.javastart.OdczytPlikowPowtorzNaKOniec1111111111111111.ZADANIE;
 
 
 
@@ -66,9 +66,11 @@ class CompanyApp {
             System.out.println("Wprowadź wypłatę:");
             double salary = scanner.nextDouble();
             scanner.nextLine();
+            Person person = new Person(firstName, lastName);
             company.addEmployee(new Employee(firstName, lastName, (int) salary));
         }
         return company;
     }
+
 
 }

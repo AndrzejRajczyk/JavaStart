@@ -1,4 +1,4 @@
-package pl.javastart.OdczytPlikow;
+package pl.javastart.OdczytPlikowPowtorzNaKOniec1111111111111111;
 
 import java.io.FileInputStream;
 import java.io.IOException;
