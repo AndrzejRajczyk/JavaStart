@@ -2,7 +2,7 @@ package pl.javastart.Rekurencja;
 
 public class Rekurencja {
 
-//warto dac typ double - slnia szybko wyczerpuje inta
+//warto dac typ long - slnia szybko wyczerpuje inta
     static int factorial(int y){
         int result = y;
         if (y>1){
