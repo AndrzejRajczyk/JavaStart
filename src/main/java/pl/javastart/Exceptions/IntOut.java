@@ -28,7 +28,7 @@ public class IntOut extends MismashOperatorException {
 
        if(check==0){ //L    EPIEJ BOOLEAN
         try{
-            String s = new Double(numberIn).toString();
+            String s = String.valueOf(numberIn);
             Double.parseDouble(s);
             return check=1;
         }

@@ -1,6 +1,7 @@
 package pl.javastart.Obiekty;
 
 public class Company {
+
     public static void main(String[] args) {
 
         Emploee emploee1 = new Emploee("Jan", "Kowalski",30, "Adidas");
