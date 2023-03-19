@@ -60,8 +60,7 @@ public class PersonDatabse {
 
     @Override
     public String toString() {
-        return "PersonDatabse{" +
-                "personDatabase=" + Arrays.toString(personDatabase) +
+        return "personDatabase=" + Arrays.toString(personDatabase) +
                 '}';
     }
 }
