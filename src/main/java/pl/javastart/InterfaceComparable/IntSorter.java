@@ -19,13 +19,7 @@ public class IntSorter {
         System.out.println("Tablica sortowana rosnąco" + Arrays.toString(numbers));
 
         Arrays.sort(numbers,
-                new Comparator<Integer>(){
-            @Override
-                 public int compare(Integer  o1,  Integer o2) {
-                return o1.compareTo(o2)*(-1);
-            }
-
-        });
+                (o1, o2) -> o1.compareTo(o2)*(-1));
         System.out.println("Tablica sortowana malejąco" + Arrays.toString(numbers) );
     }
 }
