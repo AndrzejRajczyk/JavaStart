@@ -4,10 +4,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-import static pl.javastart.Listy.Input.EXIT;
+
 
 public class RAdd {
     private  List<Integer> numbers = new LinkedList<>();
+    public static final String EXIT = "exit";
     private int sum = 0 ;
 
     Scanner sc = new Scanner(System.in);
